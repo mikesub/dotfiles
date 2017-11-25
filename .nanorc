@@ -1,0 +1,9 @@
+unset quiet
+set morespace
+set const
+set nohelp
+unset nonewlines
+set smooth
+unset suspend
+set tabsize 4
+set tabstospaces

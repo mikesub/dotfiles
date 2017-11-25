@@ -1,0 +1,33 @@
+[user]
+	name = Mikhail Saburenkov
+	email = allo.superman@gmail.com
+[status]
+	short = true
+	branch = true
+[core]
+	filemode = true
+	ignorecase = true
+    excludesfile = ~/.gitignore
+    trustctime = false
+    untrackedCache = true
+[color]
+	status = true
+	branch = true
+	interactive = true
+	diff = true
+    ui = true
+[diff]
+    renames = copies
+[merge]
+    log = true
+[pull]
+    rebase = true
+[push]
+    default = simple
+    followTags = true
+[format]
+    pretty = %Cred%h%Creset %Cgreen%D%Creset %s %Cblue%an%Creset
+[alias]
+    lg = log -n 10
+    amend = commit --amend --reuse-message=HEAD
+    aliases = config --get-regexp alias

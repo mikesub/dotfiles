@@ -1,0 +1,10 @@
+source ~/.git_prompt
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+status='\[\033[0;32m\]\u\[\033[0m\] \[\033[0;34m\]\w \[\033[0m\]$(__git_ps1 "%s")\[\033[0;32m\]>\[\033[0m\]'
+host=""
+if [[ $SSH_CONNECTION ]]; then
+    host="\[\033[0;31m\]\h\[\033[0;0m\]:"
+fi
+export PS1="${host}${status}"
