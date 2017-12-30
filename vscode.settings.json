@@ -39,6 +39,7 @@
         "statusBar.background": "#333",
         "statusBar.foreground": "#ddd"
     },
+    "editor.tokenColorCustomizations": {},
     "files.exclude": {
         ".git": true
     },
@@ -46,14 +47,14 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/webpack": true,
-        "**/coverage": true
+        "**/coverage": true,
+        "**/generated": true
     },
     "workbench.sideBar.location": "right",
     "workbench.fontAliasing": "antialiased",
     "extensions.ignoreRecommendations": true,
     "prettier.eslintIntegration": true,
-    "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.panel.location": "bottom",
+    "workbench.panel.location": "right",
     "grunt.autoDetect": "off",
     "gulp.autoDetect": "off",
     "jake.autoDetect": "off",
@@ -68,5 +69,11 @@
     "workbench.editor.showIcons": false,
     "workbench.editor.tabCloseButton": "off",
     "window.restoreFullscreen": true,
-    "window.newWindowDimensions": "maximized"
+    "window.newWindowDimensions": "maximized",
+    "workbench.iconTheme": null,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": false
 }
+

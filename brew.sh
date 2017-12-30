@@ -17,6 +17,7 @@ brew install httpie
 
 brew install git
 brew install tig
+brew install hub
 
 brew install rlwrap
 brew install leiningen
